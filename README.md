@@ -99,4 +99,42 @@ A user-friendly design is critical in a booking system to:
 
 Well-planned UI/UX helps turn casual browsers into loyal customers by making their experience effortless and pleasant.
 
+######################################################################################################################
+
+### 🖌️ Figma Design Specifications
+
+#### 🎨 Color Styles
+
+- **Primary Color:** `#FF5A5F` – Main brand accent, used for CTAs (Call to Action)
+- **Secondary Color:** `#008489` – Used for highlights and icons
+- **Background Color:** `#FFFFFF` – General background for pages
+- **Text Color:** `#222222` – Primary body text
+- **Secondary Text Color:** `#717171` – Used for descriptions, labels, and less emphasized content
+
+---
+
+#### 🖋️ Typography
+
+| Type             | Font Family | Font Weight | Font Size     |
+|------------------|-------------|-------------|---------------|
+| **Primary Text** | Circular    | Medium (500) | 16px         |
+| **Headings**     | Circular    | Bold (700)   | 24px – 32px   |
+| **Secondary Text** | Circular  | Book (400)   | 14px         |
+
+---
+
+### 💡 Importance of Identifying Design Properties in a Mockup
+
+Understanding the design properties (such as colors, typography, spacing, and component styles) in a Figma mockup is essential because:
+
+- 🎨 **Consistency**: Ensures all UI elements maintain a unified look and feel throughout the app.
+- 🧱 **Reusability**: Helps in building reusable and modular UI components.
+- ⚙️ **Developer Efficiency**: Provides clear design rules for implementation, reducing guesswork and development time.
+- 📱 **Responsive Design**: Allows designers and developers to anticipate how components scale and behave across devices.
+- ♿ **Accessibility**: Helps ensure visual elements like color contrast and text sizing meet accessibility standards.
+- 🔄 **Design-Dev Sync**: Maintains alignment between designers and developers, avoiding misunderstandings.
+
+Mockups are not just static visuals—they are the blueprint for building intuitive and visually appealing digital experiences.
+
+
 
