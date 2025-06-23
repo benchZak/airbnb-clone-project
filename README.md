@@ -138,7 +138,8 @@ Mockups are not just static visuals—they are the blueprint for building intuit
 
 ############################################################################################################################
 
-## 👥 Project Roles and Responsibilities
+## 👥 Team Roles: 
+ Project Roles and Responsibilities
 
 Successful collaboration is essential for building a scalable and maintainable full-stack application. Below are the defined roles for the AirBnB Clone project, along with their key responsibilities and contributions.
 
