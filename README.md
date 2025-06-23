@@ -436,3 +436,14 @@ Here are the key security measures that will be implemented and why they are cru
     The project includes a "Secure Checkout Process" as a key feature. This involves implementing robust security measures around payment and booking confirmation systems. Security is crucial for **securing payments and sensitive financial transactions**, ensuring that users' payment information is handled with the highest level of security and privacy during the booking process.
 
 These security measures, particularly authentication and authorization, are essential for ensuring that data is handled securely and efficiently, forming the robust engine behind the application.
+
+
+
+### 🚀 CI/CD Pipeline
+
+A CI/CD (Continuous Integration/Continuous Delivery or Deployment) pipeline is an automated process that streamlines the software development lifecycle, from code commit to deployment. For the AirBnB clone project, implementing a robust CI/CD pipeline is essential for ensuring efficient, reliable, and continuous delivery of the application.
+
+Its importance for this project lies in allowing for rapid iteration, consistent code quality, and dependable deployments. The **DevOps Engineers** are specifically responsible for setting up and maintaining this pipeline, which directly contributes to ensuring that "the application is reliably delivered and operational in real-world environments". This aligns with the project goal of deploying the application using best DevOps practices.
+
+For this project, **GitHub Actions** is explicitly mentioned as a tool for CI/CD. This platform can be used to automate various stages of the pipeline, including building, testing, and deploying the frontend and backend components of the AirBnB clone.
+
