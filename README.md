@@ -17,6 +17,7 @@ This project is a full-stack clone of the popular accommodation booking platform
 The repository will follow a clean and modular structure with separate folders for:
 - Frontend
 - Backend
+- Database Administrator
 - Design files
 - Documentation
 
