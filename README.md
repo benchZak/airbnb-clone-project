@@ -332,3 +332,71 @@ This project leverages a modern and robust technology stack to create a full-sta
 ---
 
 
+### 🗄️ Database Design
+
+The database design for the AirBnB clone project will structure and manage all application data, aligning with the project's goals of enabling property search, booking, and user management. The project plans to use either MongoDB or PostgreSQL for its database, and the backend developers are responsible for designing and managing the database schema.
+
+Here are the key entities required for the project, their important fields, and how these entities are related:
+
+#### Users
+*   **Purpose:** To enable users to sign up, log in, and manage their bookings.
+*   **Important Fields:**
+    *   `user_id`: A unique identifier for each user (inferred, as essential for user authentication).
+    *   `email`: Used for user authentication and login.
+    *   `password_hash`: Stores the secure hash of the user's password for authentication.
+    *   `username` or `display_name`: (Inferred for user identification and personalization, commonly associated with user profiles).
+*   **Relationships:**
+    *   A `User` can **make multiple Bookings** for accommodations.
+    *   A `User` can **write multiple Reviews** for properties (inferred, as ratings and reviews for properties are mentioned, and typically originate from users).
+
+#### Properties
+*   **Purpose:** To store details about available accommodations that users can browse, view, and book.
+*   **Important Fields:**
+    *   `property_id`: A unique identifier for each property (inferred, as essential for managing listings).
+    *   `title`: The name or title of the property, displayed in the property listing grid and detailed view.
+    *   `description`: Detailed information about the property, available in the detailed property viewing.
+    *   `location`: The geographical location of the property, used for searching and filtering properties.
+    *   `price_per_night`: The cost for one night's stay, used for displaying pricing and enabling price filtering.
+    *   `amenities`: A list of features or services available at the property, used for filtering.
+    *   `image_urls`: Links to image galleries or thumbnails of the property.
+*   **Relationships:**
+    *   A `Property` can **have multiple Bookings** made by different users.
+    *   A `Property` can **receive multiple Reviews** from users.
+
+#### Bookings
+*   **Purpose:** To record instances of users booking a specific property for a defined period, facilitating the secure checkout process.
+*   **Important Fields:**
+    *   `booking_id`: A unique identifier for each booking transaction (inferred, as essential for managing individual bookings).
+    *   `user_id`: A foreign key referencing the `User` who made the booking, linking bookings to user accounts.
+    *   `property_id`: A foreign key referencing the `Property` being booked.
+    *   `check_in_date`: The start date of the accommodation period (inferred, as fundamental to booking accommodations).
+    *   `check_out_date`: The end date of the accommodation period (inferred, as fundamental to booking accommodations).
+    *   `total_price`: The calculated total cost of the booking (inferred from the `price_per_night` and the secure checkout process).
+*   **Relationships:**
+    *   A `Booking` **belongs to one User**.
+    *   A `Booking` **is for one Property**.
+    *   A `Booking` can **have one or more Payments** associated with it to complete the secure checkout process.
+
+#### Reviews
+*   **Purpose:** To store user-generated ratings and comments that provide feedback for properties.
+*   **Important Fields:**
+    *   `review_id`: A unique identifier for each review (inferred, as essential for managing distinct reviews).
+    *   `property_id`: A foreign key referencing the `Property` that the review pertains to.
+    *   `user_id`: A foreign key referencing the `User` who wrote the review (inferred, as reviews are typically user-generated content).
+    *   `rating`: A numerical score given to the property.
+    *   `comment`: Textual feedback or a detailed description provided by the user (inferred, as part of "reviews").
+*   **Relationships:**
+    *   A `Review` **belongs to one Property**.
+    *   A `Review` **is written by one User** (inferred).
+
+#### Payments
+*   **Purpose:** To record financial transactions related to bookings, as part of the secure checkout process.
+*   **Important Fields:**
+    *   `payment_id`: A unique identifier for each payment transaction (inferred, as essential for tracking payments).
+    *   `booking_id`: A foreign key referencing the `Booking` for which the payment was made.
+    *   `amount`: The monetary value of the payment (inferred from the "secure checkout process").
+    *   `payment_date`: The date and time when the payment was processed (inferred, for financial record-keeping).
+    *   `status`: The current state of the payment (e.g., "completed", "pending", "failed") (inferred, for tracking payment success).
+*   **Relationships:**
+    *   A `Payment` **belongs to one Booking**.
+
