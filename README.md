@@ -400,3 +400,19 @@ Here are the key entities required for the project, their important fields, and 
 *   **Relationships:**
     *   A `Payment` **belongs to one Booking**.
 
+
+### 💡 Feature Breakdown
+
+This AirBnB clone project is designed with core functionalities that mirror a real-world accommodation booking platform, focusing on user experience, data management, and secure transactions. The main features are outlined below, explaining their contribution to the project's overall goals.
+
+*   **👤 User Authentication**
+    This feature enables users to sign up, log in, and manage their personal accounts and bookings. It is crucial for providing personalized experiences, securing user data, and allowing users to track their past and upcoming stays.
+
+*   **🔍 Property Search and Filtering**
+    This functionality allows users to efficiently browse and locate accommodations by filtering properties based on criteria such as location, price, property type, and available amenities. It contributes to a user-friendly web interface by helping users quickly find properties that meet their specific needs, enhancing the overall search experience.
+
+*   **🏘️ Detailed Property Viewing**
+    Users can access comprehensive information about each property, including image galleries, detailed descriptions, and amenities. This feature is vital for providing users with all necessary details to make informed booking decisions and engaging with the listing before proceeding to a booking.
+
+*   **🔐 Secure Checkout Process**
+    This feature implements a streamlined system for payment and booking confirmation. Its purpose is to ensure that financial transactions are handled securely and efficiently, providing users with confidence and a clear path to finalize their accommodation bookings.
