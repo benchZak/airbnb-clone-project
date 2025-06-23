@@ -11,28 +11,6 @@ This project is a full-stack clone of the popular accommodation booking platform
 - Enable property search, filtering, booking, and user authentication.
 - Deploy the application using best DevOps practices.
 
-## 🛠️ Tech Stack
-
-### Frontend:
-- HTML
-- CSS
-- JavaScript
-- React (or similar)
-
-### Backend:
-- Node.js
-- Express (or similar)
-
-### Database:
-- MongoDB or PostgreSQL
-
-### Tools & Services:
-- Git & GitHub
-- Figma (for UI/UX design)
-- CI/CD (e.g., GitHub Actions)
-- Deployment (e.g., Vercel, Netlify, Heroku)
-
----
 
 ## 📁 Repository Structure
 
@@ -313,8 +291,43 @@ Each component will:
 More components (e.g., Booking Form, Image Carousel, Filter Sidebar) will be added as development progresses.
 
 
+### 🛠️ Technology Stack
+
+This project leverages a modern and robust technology stack to create a full-stack clone of the AirBnB platform. The selection of these technologies aims to simulate a real-world development environment and workflow.
+
+*   **HTML:** Used for structuring the web content and building responsive UI components for the frontend.
+*   **CSS:** Employed for styling the web application, ensuring a responsive and user-friendly web interface.
+*   **JavaScript:** The primary scripting language for implementing interactive elements and integrating APIs with frontend views.
+*   **React (or similar):** A JavaScript library (or similar framework) for building a component-based structure for the user interface, enabling smooth and intuitive user interaction. It helps bring the design to life.
+*   **Node.js:** The runtime environment for building the backend of the application. It allows for the development of core business logic and RESTful APIs.
+*   **Express (or similar):** A web application framework for Node.js (or similar framework) used to develop RESTful APIs and manage the backend's core business logic, ensuring data is handled securely and efficiently. It acts as the "engine behind the application".
+*   **MongoDB or PostgreSQL:** These are the chosen database technologies for designing and managing the application's database schema and storing data securely and efficiently.
+*   **Git & GitHub:** Version control system (Git) and hosting platform (GitHub) are essential tools for managing code changes, facilitating collaborative development, and ensuring an efficient workflow. The project repository is hosted on GitHub.
+*   **Figma:** A design tool used for UI/UX design planning, including creating mockups, maintaining the design system, defining typography, color schemes, spacing, and layout. It ensures the app is visually consistent, easy to navigate, and aligned with user expectations.
+*   **CI/CD (e.g., GitHub Actions):** Continuous Integration/Continuous Deployment tools like GitHub Actions are used to set up and maintain the automation pipeline, ensuring that the application is reliably delivered and operational. This aligns with the goal of deploying the application using best DevOps practices.
+*   **Deployment (e.g., Vercel, Netlify, Heroku):** Platforms used to manage deployment environments (development, staging, production) and make the application accessible in real-world environments. This is key to the project goal of deploying the application using best DevOps practices.
+  
 
 
+### Frontend:
+- HTML
+- CSS
+- JavaScript
+- React (or similar)
 
+### Backend:
+- Node.js
+- Express (or similar)
+
+### Database:
+- MongoDB or PostgreSQL
+
+### Tools & Services:
+- Git & GitHub
+- Figma (for UI/UX design)
+- CI/CD (e.g., GitHub Actions)
+- Deployment (e.g., Vercel, Netlify, Heroku)
+
+---
 
 
